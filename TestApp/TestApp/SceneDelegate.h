@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.h
-//  test
+//  TestApp
 //
 //  Created by Rostadhi Akbar, M.Pd on 22/02/22.
 //
