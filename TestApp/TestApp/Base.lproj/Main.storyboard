@@ -43,6 +43,7 @@
                                         <connections>
                                             <outlet property="itemsImage" destination="Bro-SO-c30" id="crI-IP-AYp"/>
                                             <outlet property="prices" destination="EFF-3V-SAu" id="ejA-wS-Dfu"/>
+                                            <segue destination="PJc-hl-LIv" kind="show" identifier="detail" id="qwq-XH-ade"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -64,6 +65,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="109.82142857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ru0-ZP-Sq6">
+            <objects>
+                <viewController id="PJc-hl-LIv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dxC-W9-FQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="T84-UW-r8H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HlY-8b-SYz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuI-7z-jns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1083" y="110"/>
         </scene>
     </scenes>
     <resources>

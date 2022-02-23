@@ -15,6 +15,7 @@
 		C2C8878F27C4D10100674C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C8878D27C4D10100674C5C /* LaunchScreen.storyboard */; };
 		C2C8879227C4D10100674C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8879127C4D10100674C5C /* main.m */; };
 		C2C8879A27C538CA00674C5C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8879927C538CA00674C5C /* TableViewCell.m */; };
+		C2C8879D27C5C01C00674C5C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8879C27C5C01C00674C5C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C2C8879127C4D10100674C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C8879827C538CA00674C5C /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		C2C8879927C538CA00674C5C /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C2C8879B27C5C01C00674C5C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C2C8879C27C5C01C00674C5C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				C2C8879127C4D10100674C5C /* main.m */,
 				C2C8879827C538CA00674C5C /* TableViewCell.h */,
 				C2C8879927C538CA00674C5C /* TableViewCell.m */,
+				C2C8879B27C5C01C00674C5C /* DetailViewController.h */,
+				C2C8879C27C5C01C00674C5C /* DetailViewController.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				C2C8879227C4D10100674C5C /* main.m in Sources */,
 				C2C8879A27C538CA00674C5C /* TableViewCell.m in Sources */,
 				C2C8878427C4D10000674C5C /* SceneDelegate.m in Sources */,
+				C2C8879D27C5C01C00674C5C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
