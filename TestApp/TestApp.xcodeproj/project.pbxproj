@@ -14,6 +14,7 @@
 		C2C8878C27C4D10100674C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C8878B27C4D10100674C5C /* Assets.xcassets */; };
 		C2C8878F27C4D10100674C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C8878D27C4D10100674C5C /* LaunchScreen.storyboard */; };
 		C2C8879227C4D10100674C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8879127C4D10100674C5C /* main.m */; };
+		C2C8879A27C538CA00674C5C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8879927C538CA00674C5C /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C2C8878E27C4D10100674C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C8879027C4D10100674C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C8879127C4D10100674C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2C8879827C538CA00674C5C /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C2C8879927C538CA00674C5C /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C2C8878D27C4D10100674C5C /* LaunchScreen.storyboard */,
 				C2C8879027C4D10100674C5C /* Info.plist */,
 				C2C8879127C4D10100674C5C /* main.m */,
+				C2C8879827C538CA00674C5C /* TableViewCell.h */,
+				C2C8879927C538CA00674C5C /* TableViewCell.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				C2C8878727C4D10000674C5C /* ViewController.m in Sources */,
 				C2C8878127C4D10000674C5C /* AppDelegate.m in Sources */,
 				C2C8879227C4D10100674C5C /* main.m in Sources */,
+				C2C8879A27C538CA00674C5C /* TableViewCell.m in Sources */,
 				C2C8878427C4D10000674C5C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
